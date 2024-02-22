@@ -3,7 +3,7 @@
 
 int main()
 {
-#define DEFAULT // comment this to choose lives at runtime otherwise default is 7
+#define DEFAULT // comment this out to choose lives at runtime otherwise default is 7
 	
 	int lives{ 7 };
 	std::wstring word;
